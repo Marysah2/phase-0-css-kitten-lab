@@ -20,7 +20,7 @@
 }
 
 /* Select the image based on the respective sibling element (General sibling selector) */
-.sibling-element ~ img {
+#ball + img {
   position: absolute;
   top: 350px;
   left: 350px;
@@ -31,4 +31,11 @@ img[alt="Kitty 5"] {
   position: absolute;
   top: 450px;
   left: 450px;
+}
+img[alt="kitty 5"]
+{
+  z-index: 3;
+  position: absolute;
+  top: 217px;
+  left: 223px;
 }
